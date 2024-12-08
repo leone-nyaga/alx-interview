@@ -19,8 +19,8 @@ For the “0. Island Perimeter” project, you will need to apply your knowledge
   + Breaking down the problem into smaller tasks, such as identifying land cells and calculating their contribution to the perimeter.
 
 5. Python Programming:
-   + Nested loops for iterating over grid cells.
-   + Conditional statements to check the status of adjacent cells.
+  + Nested loops for iterating over grid cells.
+  + Conditional statements to check the status of adjacent cells.
 
 ## TASK
 
@@ -36,3 +36,26 @@ Create a function def island_perimeter(grid): that returns the perimeter of the 
 + There is only one island (or nothing).
 + The island doesn’t have “lakes” (water inside that isn’t connected to the water surrounding the island).
 
+```bash
+guillaume@ubuntu:~/0x09$ cat 0-main.py
+#!/usr/bin/python3
+"""
+0-main
+"""
+island_perimeter = __import__('0-island_perimeter').island_perimeter
+
+if __name__ == "__main__":
+    grid = [
+        [0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0],
+        [0, 1, 1, 1, 0, 0],
+        [0, 0, 0, 0, 0, 0]
+    ]
+    print(island_perimeter(grid))
+
+guillaume@ubuntu:~/0x09$ 
+guillaume@ubuntu:~/0x09$ ./0-main.py
+12
+guillaume@ubuntu:~/0x09$
+```
