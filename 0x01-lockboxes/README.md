@@ -71,3 +71,8 @@ False
 carrie@ubuntu:~/0x01-lockboxes$
 ```
 
+Repo:
+
++ GitHub repository: alx-interview
++ Directory: 0x01-lockboxes
++ File: 0-lockboxes.py
